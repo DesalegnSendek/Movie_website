@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Backup from "../assets/images/backup.jfif";
+import Backup from "../Assets/images/backup.jfif";
 
 export const Card = ({movie}) => {
   const {id, original_title, overview, poster_path} = movie;
